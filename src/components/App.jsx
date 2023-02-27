@@ -62,7 +62,7 @@ const App = () => {
     <div className="App">
       <AppBar position="relative" sx={{backgroundColor: "#eb2128a6"}}>
         <Toolbar sx={{ display: "flex", alignItems: "center"}}>
-          <Icon sx={{ mr: 2 }}>
+          <Icon sx={{ mr: 2, pd: "0px", width: "30px", height: "30px" }}>
             <img src="./Poke_Ball_mini.svg" alt='Pokeball'/>
           </Icon>
           <Typography variant="h6" color="inherit" noWrap>

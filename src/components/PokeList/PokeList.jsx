@@ -39,7 +39,7 @@ const PokeList = ({pokemonArray, onClick}) => {
                   flexDirection: "column",
                   alignItems: "center",
                   borderRadius: "75px 75px 10px 10px",
-                  backgroundColor: "#eb2128a6",
+                  backgroundColor: "#ffffffa6",
                 }}
               >
               <CardMedia 
@@ -48,7 +48,7 @@ const PokeList = ({pokemonArray, onClick}) => {
                 alt="Poke ball"
                 sx={{
                   position: 'relative', 
-                  '&:hover': {
+                  '&:hover, &:focus': {
                     transform: "rotate(360deg)",
                     transition: "all 1s ease-out"
                   }
